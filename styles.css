@@ -1,0 +1,117 @@
+/* styles.css */
+
+/* Set the font family and background color for the entire body */
+body {
+    font-family: Poppins, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(225, 228, 233);
+}
+
+/* Styling for the main container that holds the app content */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px solid rgb(75, 81, 86);
+    border-radius: 5px;
+    background-color: rgb(198, 169, 129);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+}
+
+/* Styling for the main heading */
+h1 {
+    text-align: center;
+    color: rgb(243, 244, 246);
+}
+
+/* Styling for the search container */
+.search-container {
+    position: relative;
+}
+
+/* Styling for the search input */
+input[type="text"] {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(75, 81, 86);
+    border-radius: 5px;
+}
+
+/* Styling for the suggestions list */
+ul#suggestionsList {
+    position: absolute;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+    z-index: 1;
+    padding: 0px;
+    list-style: none;
+}
+
+/* Styling for the items in the suggestions list */
+ul#suggestionsList li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Styling for the items in the suggestions list when hovered */
+ul#suggestionsList li:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+/* Styling for the search button */
+button {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(140, 152, 166);
+    color: rgb(243, 244, 246);
+    border: 2px solid rgb(75, 81, 86);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Styling for the search button when hovered */
+button:hover {
+    background-color: rgb(75, 81, 86);
+}
+
+/* Styling for the recipe card */
+.recipe-card {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid rgb(75, 81, 86);
+    border-radius: 5px;
+    background-color: rgb(243, 244, 246);
+    color: rgb(95, 112, 130);
+}
+
+/* Styling for the recipe card heading */
+.recipe-card h2 {
+    margin-bottom: 10px;
+    color: rgb(75, 81, 86);
+}
+
+/* Styling for the recipe card image */
+.recipe-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the recipe card list */
+.recipe-card ul {
+    list-style: none;
+    padding: 0px;
+}
+
+/* Styling for the recipe card list items */
+.recipe-card li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder App</title>
+    <!-- Link to Google Fonts and external stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main container for the app -->
+    <div class="container">
+        <!-- Main heading -->
+        <h1>Recipe Finder</h1>
+        <!-- Search container with input field, suggestions list, and search button -->
+        <div class="search-container">
+            <!-- Input field for the ingredient -->
+            <input type="text" id="searchInput" placeholder="Enter an ingredient...">
+            <!-- Suggestions list for suggested ingredients -->
+            <ul id="suggestionsList"></ul>
+            <!-- Button to search for recipes -->
+            <button id="searchButton">Search</button>
+        </div>
+        <!-- Container to display recipe results -->
+        <div id="recipeResults"></div>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
